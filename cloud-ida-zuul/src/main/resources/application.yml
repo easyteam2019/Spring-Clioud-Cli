@@ -14,8 +14,9 @@ spring:
 #      percentage: 1
   redis:
       database: 0
-      host: localhost
+      host: 47.96.77.156
       port: 6379
+      password: redis2019
       timeout: 0
       pool:
         max-active: 8
@@ -47,7 +48,7 @@ zuul:
 ##Mysql数据库配置
 datasource:
   master:
-    url: jdbc:mysql://localhost:3306/cloud-ida?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://47.96.77.156:3306/cloud-ida?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
     driverClassName: com.mysql.jdbc.Driver
     username: root
-    password: 123456
+    password: root2019
